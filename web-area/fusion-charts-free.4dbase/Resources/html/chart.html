@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+
+		<title>chart</title>
+				
+		<style type="text/css">
+			html { height: 100% }
+			body { height: 100%; margin: 0; padding: 0 }
+			#chart { height: 100% }
+		</style>
+
+		<script type="text/javascript"
+			src="../js/FusionCharts.js">
+		</script>
+		
+		<script type="text/javascript">
+						
+		function start(chartType, xml){			
+			var chart = new FusionCharts("../swf/FusionCharts/" + chartType, "chartId", window.innerWidth, window.innerHeight - 10);		   
+			chart.setDataXML(xml);
+			chart.render("chart");
+		}
+		
+		</script>
+	
+	</head>
+  
+	<body ondragover="return false;" ondrop="return false;"> 
+
+		 <div id="chart" />
+
+	</body>
+	
+</html>

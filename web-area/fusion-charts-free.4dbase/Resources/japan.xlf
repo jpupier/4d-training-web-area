@@ -1,0 +1,29 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<xliff 
+	version="1.0" 
+	xmlns:d4="http://www.4d.com/d4-ns">
+	
+	<file 
+		datatype="x-4DK#" 
+		original="undefined" 
+		source-language="en-US" 
+		target-language="en-US"
+		product-version="v13">
+		
+		<header />
+				
+		<body>
+
+			<group restype="x-4DK#">
+				
+				<trans-unit id="Japanese currency symbol" d4:value="￥:S">
+					<source>Japanese currency symbol</source>
+				</trans-unit>
+																												
+			 </group>
+			 
+		</body>	
+	
+	</file>
+	
+</xliff>
